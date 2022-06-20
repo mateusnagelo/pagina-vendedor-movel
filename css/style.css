@@ -1,0 +1,59 @@
+body {
+    font-size: larger;
+}
+
+@media(max-width: 500px) {
+    .reverse-columns {
+        flex-direction: column-reverse;
+        display: flex;
+    }
+}
+
+.titled {
+    font-family: 'Merriweather', serif !important;
+    font-size: 58px !important;
+    font-weight: 400 !important;
+    line-height: 64px !important;
+}
+
+.subtitled {
+    font-family: 'Merriweather', serif !important;
+    font-size: 22px !important;
+    font-weight: 400 !important;
+    line-height: 36px !important;
+}
+
+#colored-dna-back {
+    background: url(../images/colored-dna.svg);
+    background-position: center;
+    background-size: cover;
+    background-color: #3273dc;
+}
+
+.navbar-item {
+    color: #190af3;
+}
+
+.text-informativo {
+    line-height: 1, 5rem;
+    letter-spacing: .03rem;
+    font-size: 1.2rem;
+    font-family: sans-serif, serif;
+    color: #92a3ab;
+}
+
+.text-informativo2 {
+    line-height: 1, 5rem;
+    letter-spacing: .03rem;
+    font-size: 1.2rem;
+    font-family: sans-serif, serif;
+    color: #92a3ab;
+}
+
+.text-informativo3 {
+    line-height: 1, 5rem;
+    letter-spacing: .03rem;
+    font-size: 1.2rem;
+    font-family: sans-serif, serif;
+    color: #92a3ab;
+}
